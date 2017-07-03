@@ -193,12 +193,17 @@
         <div class="row">
             <div class="col-md-8 col-md-offset-2 opening-statement">
                 <div class="col-md-4">
-                    <h3><a href="/2017/07/03/BuildHexoBlog/">BuildHexoBlog</a></h3>
+                    <h3><a href="/2017/07/03/alertmanager/">AlertManager For the Prometheus</a></h3>
                     <span>
                         <span class="post-meta">
-      <time datetime="2017-07-03T02:55:32.000Z" itemprop="datePublished">
+      <time datetime="2017-07-03T03:09:34.239Z" itemprop="datePublished">
           2017-07-03
       </time>
+    
+    
+    | 
+    <a href='/tags/prometheus-k8s-yaml/'>prometheus k8s yaml</a>
+    
     
 </span>
                     </span>
@@ -206,12 +211,16 @@
                 <div class="col-md-8">
                     <p>
                       
-                        
+                        &emsp;本文主要讲解 如何配置AlertManager 使其正确接收Prometheus发来的监控报警，以及如何将这些报警信息进行分组 通过邮件发送给指定接收者&emsp;网上关于alertmanager的介绍很多，这里不废话 直接上干货。由于是将服务部署到容器中，因此接下来的相关配置将以yaml文件的形式出现
+分为以下几步实现
+配置 alertmanager 使其通过邮件进行报警通知
+启动 alertmanager
+配置 pome
                       
                     </p>
                     
                     <p class="pull-right readMore">
-                        <a href="/2017/07/03/BuildHexoBlog/">Read More...</a>
+                        <a href="/2017/07/03/alertmanager/">Read More...</a>
                     </p>
                     
                 </div>
@@ -249,71 +258,6 @@
                     
                     <p class="pull-right readMore">
                         <a href="/2017/07/03/HexoBuild/">Read More...</a>
-                    </p>
-                    
-                </div>
-                <div class="clearfix"></div>
-                <hr class="nogutter">
-            </div>
-        </div>
-        
-        <div class="row">
-            <div class="col-md-8 col-md-offset-2 opening-statement">
-                <div class="col-md-4">
-                    <h3><a href="/2017/07/03/alertmanager/">AlertManager For the Prometheus</a></h3>
-                    <span>
-                        <span class="post-meta">
-      <time datetime="2017-07-03T02:21:41.195Z" itemprop="datePublished">
-          2017-07-03
-      </time>
-    
-</span>
-                    </span>
-                </div>
-                <div class="col-md-8">
-                    <p>
-                      
-                        &emsp;本文主要讲解 如何配置AlertManager 使其正确接收Prometheus发来的监控报警，以及如何将这些报警信息进行分组 通过邮件发送给指定接收者&emsp;网上关于alertmanager的介绍很多，这里不废话 直接上干货。由于是将服务部署到容器中，因此接下来的相关配置将以yaml文件的形式出现
-分为以下几步实现
-配置 alertmanager 使其通过邮件进行报警通知
-启动 alertmanager
-配置 pome
-                      
-                    </p>
-                    
-                    <p class="pull-right readMore">
-                        <a href="/2017/07/03/alertmanager/">Read More...</a>
-                    </p>
-                    
-                </div>
-                <div class="clearfix"></div>
-                <hr class="nogutter">
-            </div>
-        </div>
-        
-        <div class="row">
-            <div class="col-md-8 col-md-offset-2 opening-statement">
-                <div class="col-md-4">
-                    <h3><a href="/2017/07/03/hello-world/">Hello World</a></h3>
-                    <span>
-                        <span class="post-meta">
-      <time datetime="2017-07-03T01:53:24.620Z" itemprop="datePublished">
-          2017-07-03
-      </time>
-    
-</span>
-                    </span>
-                </div>
-                <div class="col-md-8">
-                    <p>
-                      
-                        Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
-Quick StartCreate a new p
-                      
-                    </p>
-                    
-                    <p class="pull-right readMore">
-                        <a href="/2017/07/03/hello-world/">Read More...</a>
                     </p>
                     
                 </div>
