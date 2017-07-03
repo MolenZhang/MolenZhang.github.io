@@ -164,7 +164,7 @@
         <div class="row col-md-offset-2">
             <div class="col-md-8">
     			<span class="post-meta">
-      <time datetime="2017-07-03T03:09:34.239Z" itemprop="datePublished">
+      <time datetime="2017-07-03T03:11:24.830Z" itemprop="datePublished">
           2017-07-03
       </time>
     
@@ -213,7 +213,7 @@
 <li>编辑配置文件 <code>prometheus-deployment.yml</code> [prometheus 配置文件将在下篇关于<code>搭建prometheus 监控k8s</code>一文中介绍]<figure class="highlight yml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div></pre></td><td class="code"><pre><div class="line"><span class="string">...</span></div><div class="line"><span class="attr">spec:</span></div><div class="line"><span class="attr">  containers:</span></div><div class="line"><span class="attr">  - image:</span> <span class="string">docker.io/prom/prometheus:v1.0.1</span></div><div class="line"><span class="attr">    name:</span> <span class="string">prometheus</span></div><div class="line">	<span class="attr">command:</span></div><div class="line">	<span class="bullet">-</span> <span class="string">"/bin/prometheus"</span></div><div class="line">	<span class="attr">args:</span></div><div class="line">	<span class="bullet">-</span> <span class="string">'-storage.local.retention=6h'</span></div><div class="line">	<span class="bullet">-</span> <span class="string">'-storage.local.path=/prometheus'</span></div><div class="line">	<span class="bullet">-</span> <span class="string">'-storage.local.memory-chunks=500000'</span></div><div class="line">	<span class="bullet">-</span> <span class="string">'-config.file=/etc/prometheus/prometheus.yml'</span></div><div class="line">	<span class="bullet">-</span> <span class="string">'-alertmanager.url=http://172.16.13.111:30903'</span></div><div class="line"><span class="string">...</span></div></pre></td></tr></table></figure>
 </li>
 </ul>
-<h3 id="至此，完美收官。如有疑惑，可联系本人，主页上有具体的联系方式"><a href="#至此，完美收官。如有疑惑，可联系本人，主页上有具体的联系方式" class="headerlink" title="至此，完美收官。如有疑惑，可联系本人，主页上有具体的联系方式~"></a>至此，完美收官。如有疑惑，可联系本人，主页上有具体的联系方式~</h3>
+<h3 id="至此，完美收官。"><a href="#至此，完美收官。" class="headerlink" title="至此，完美收官。"></a>至此，完美收官。</h3>
             <div class="clearfix"></div>
             <hr class="nogutter">
         </div>
